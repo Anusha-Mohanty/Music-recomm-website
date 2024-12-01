@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Muse</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="mood.js"></script>
+</head>
+<body>
+
+  <section class="intro" id="intro">
+    <div class="intro-content">
+      <h2>Need songs to match your <span>Mood?</span></h2>
+      <h4>Scroll down to listen to your feelings</h4>
+    </div>
+  </section>
+
+  <section class="hidden" id="hidden">
+    <div class="second-content">
+      <h3>Click on what you feel right now</h3>
+    </div>
+
+    <ul class="wrapper">
+      <li class="emotion-item">
+         <a href="happy.html"><img src="happi.png" alt=""></a>
+      </li>
+      <li class="emotion-item" onclick="navigateToPage('angy.html')">
+          <img src="angy.png" alt="">
+      </li>
+      <li class="emotion-item" onclick="navigateToPage('calm.html')">
+          <img src="calm.png" alt="">
+      </li>
+      <li class="emotion-item" onclick="navigateToPage('sedd.html')">
+          <img src="sedd.png" alt="">
+      </li>
+      <li class="emotion-item" onclick="navigateToPage('sleepi.html')">
+          <img src="sleepi.png" alt="">
+      </li>
+      <li class="emotion-item" onclick="navigateToPage('shyy.html')">
+          <img src="shyy.png" alt="">
+      </li>
+      <li class="emotion-item" onclick="navigateToPage('excy.html')">
+          <img src="excy.png" alt="">
+      </li>
+      <li class="emotion-item" onclick="navigateToPage('proudd.html')">
+          <img src="proudd.png" alt="">
+      </li>
+  </ul>
+  </section>
+</body>
+</html>

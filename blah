@@ -1,0 +1,59 @@
+    <div class="wrapper">
+      <div class="emotion-item">
+        <img src="proudd.png" alt="">
+    </div>
+    <div class="wrapper">
+      <div class="emotion-item">
+        <img src="sleepi.png" alt="">
+    </div>
+    <div class="wrapper">
+      <div class="emotion-item">
+        <img src="excy.png" alt="">
+    </div>
+    <div class="wrapper">
+      <div class="emotion-item">
+        <img src="calm.png" alt="">
+
+
+        <ul class="wrapper">
+          <li class="happy"  onclick="navigateToPage('happy.html')">
+              <span class="tooltip">happy</span>
+              <img src="happy3.png" alt="happy image">
+          </li>
+          <li class="angry2">
+              <li class="angry2"  onclick="navigateToPage('angry.html')">
+              <span class="tooltip">sad</span>
+              <img src="angry2.png" alt="angry img">
+          </li>
+          <li class="bored">
+              <li class="bored"  onclick="navigateToPage('bored.html')">
+              <span class="tooltip">angry</span>
+              <img src="stressed.png"alt="sad image">
+          </li>
+          <li class="sleepy">
+              <li class="sleepy"  onclick="navigateToPage('sleepy.html')">
+              <span class="tooltip">sad</span>
+              <img src="sleepy.png"alt="sleepy image">
+          </li>
+          <li class="calm">
+              <li class="calm"  onclick="navigateToPage('calm.html')">
+              <span class="tooltip">sad</span>
+              <img src="happy2.png"alt="calm image">
+          </li>
+          <li class="anxious">
+              <li class="anxious"  onclick="navigateToPage('anxious.html')">
+              <span class="tooltip">sad</span>
+              <img src="anxious.png"alt="calm image">
+          </li>
+          <li class="cry">
+              <li class="cry"  onclick="navigateToPage('cry.html')">
+              <span class="tooltip">cry</span>
+              <img src="cry.png"alt="cry image">
+          </li>
+          <li class="cheerful">
+              <li class="cheerful"  onclick="navigateToPage('cheerful.html')">
+              <span class="tooltip">cry</span>
+              <img src="cheerful.png"alt="cheerful image">
+          </li>
+         
+      </ul>
